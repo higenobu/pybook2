@@ -1,3 +1,4 @@
+zaikos=[1,2,3,4]
 try:
   ff = open('sample_file.txt','w')
   for zaiko in zaikos:
