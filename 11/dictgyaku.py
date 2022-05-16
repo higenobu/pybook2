@@ -8,3 +8,4 @@ def inv_zaiko(zaiko_dic):
     else:
       inv_dic[w].append(k)
   return inv_dic
+print (inv_zaiko(zaiko_dic))
