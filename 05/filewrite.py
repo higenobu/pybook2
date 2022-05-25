@@ -1,0 +1,7 @@
+write_file = open('file.txt','w')
+write_file.write('最初の行です\n')
+write_file.write('2番目の行です\n')
+write_file.write('3番目の行です\n')
+write_file.write('4番目の行です\n')
+write_file.write('5番目の行です\n')
+write_file.close()
