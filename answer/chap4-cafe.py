@@ -21,9 +21,9 @@ zz=input("個数はいくらでしょうか？")
 print ("注文の種類は"+yy+" 個数は"+zz+" ですね")
 wtime=0
 
-if (yy[0:1]=='レギュラー'):
+if (yy=='レギュラー'):
 	wtime=1
-elif (yy[0:1]=='カプチーノ' or yy[0:1]=='エスプレッソ'):
+elif (yy=='カプチーノ' or yy=='エスプレッソ'):
 	wtime=2
 elif (yy=='ラテ' or yy=='アイリッシュ'):	
 	wtime=3
