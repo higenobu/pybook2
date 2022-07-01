@@ -33,13 +33,4 @@ if __name__ == '__main__':
 			ww.write(lk[i][0]+','+lk[i][1]+','+lk[i][2]+','+lk[i][3]+','+lk[i][4]+','+lk[i][5]+','+lk[i][6]+','+lk[i][7]+'\n')
               
 
-	print ("pickle file")
-	ll=pickle.dumps(lk)
-	list_again=pickle.loads(ll)
-	#print (list_again)    
-	with open('pickleb.txt','wb') as pp:
-		pp.write(ll)
-	with open('pickleb.txt','rb') as rr:
-		pk=rr.read()	
-		wpk=pickle.loads(pk)
-		print (wpk)
+	
