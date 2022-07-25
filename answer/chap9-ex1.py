@@ -8,7 +8,8 @@ if __name__ == '__main__':
 		reader=csv.reader(ff,delimiter=',')
 		lk=[row for row in reader]
 	for dd in range(50):
-		diff=float(lk[dd][1])-float(lk[dd][4])
+		# assume: date:0,end-price:1, start-price:2
+		diff=float(lk[dd][1])-float(lk[dd][2])
 		jdate=lk[dd][0]
 		print (diff)
 		diffs.append([jdate,diff])
