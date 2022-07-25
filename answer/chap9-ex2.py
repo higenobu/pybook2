@@ -10,7 +10,8 @@ if __name__ == '__main__':
 	
 
 	for dd in range(50):
-		diff=abs(float(lk[dd][2])-float(lk[dd][3]))
+		#high:3,low:4
+		diff=abs(float(lk[dd][3])-float(lk[dd][4]))
 		jdate=lk[dd][0]
 		print (diff)
 		diffs.append([jdate,diff])
