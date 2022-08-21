@@ -4,10 +4,11 @@ import csv
 
 diffs=[]
 datafile='nikkei-data.csv'
+lk=[]
 with open(datafile,'r') as ff:
 	reader=csv.reader(ff,delimiter=',')
-	lk=[row for row in reader]
-	
+	for row in reader:
+		lk.append(row)
 
 for dd in range(50):
 		#high:3,low:4
